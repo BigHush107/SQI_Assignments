@@ -1,0 +1,69 @@
+#BigBox {
+    background-color: green;
+    width: 1550px;
+    height: 1500px;
+}
+
+.product{
+    padding-left: 640px;
+    padding-top: 100px;
+}
+
+.stock {
+    background-color: powderblue;
+    width: 400px;
+    height: 400px;
+    margin-left: 70px;
+}
+
+#writeup1 {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin-left: 70px;
+}
+
+.btn {
+    background-color: green;
+}
+.ETF {
+    background-color: snow;
+    width: 400px;
+    height: 400px;
+    margin-left: 500px;
+}
+
+#writeup2 {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin-left: 500px;
+}
+
+.FR {
+    background-color: palevioletred;
+    width: 400px;
+    height: 400px;
+    margin-left: 1000px;
+}
+
+#writeup3 {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin-left: 1000px;
+}
+
+.FI {
+    background-color: paleturquoise;
+    width: 400px;
+    height: 400px;
+    margin-left: 70px;
+}
+
+#writeup4 {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin-left: 70px;
+}

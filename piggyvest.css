@@ -1,0 +1,99 @@
+#pv{
+    background-color:whitesmoke;
+    width: 1550px;
+    height: 1400px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#why{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: blue;
+    font-size: 14px;
+    font: weight 400;
+}
+
+#heading{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+
+.as{
+    background-color: rgb(166, 246, 246);
+    width: 392px;
+    height: 470px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+#padleft{
+    font-family: "Cedarville", cursive;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+#ph1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+}
+#ph2{
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.fs{
+    background-color: rgb(247, 216, 157);
+    width: 392px;
+    height: 470px;
+    border-radius: 20px;
+}
+
+.gos{
+    background-color: rgb(118, 238, 118);
+    width: 392px;
+    height: 470px;
+    border-radius: 20px;
+}
+
+.es{
+    background-color: rgb(242, 150, 150);
+    width: 392px;
+    height: 470px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+.ds{
+    background-color:powderblue;
+    width: 392px;
+    height: 470px;
+    border-radius: 20px;
+}
+
+.rs{
+    background-color: rgb(237, 190, 104);
+    width: 392px;
+    height: 470px;
+    border-radius: 20px;
+}
+
+.vir{
+    background-color: blue;
+    width: 208.87px;
+    height: 52px;
+    margin: 80px;
+    padding: 14px 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    color: white;
+    border-radius: 50px;
+}
