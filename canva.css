@@ -1,0 +1,43 @@
+#box1{
+    width: 55vw;
+    height: 60vh;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #2d00f7, #8a2be2);    
+}
+
+.heading{
+    font-size: 24px;
+    color: white;
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+.para{
+    font-size: 14px;
+    color: white;
+    font-weight: 100px;
+    margin-left: 20px;
+}
+
+.image1{
+    top: 5px;
+    left: 300px;
+    position: absolute;
+    height: auto;
+    width: 260px;
+}
+
+#box2{
+    width: 55vw;
+    height: 60vh;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #2d00f7, #8a2be2);
+}
+
+.image2{
+    top: 15px;
+    left: 917px;
+    position: absolute;
+    height: auto;
+    width: 260px;
+}
