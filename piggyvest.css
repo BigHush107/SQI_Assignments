@@ -6,6 +6,11 @@
     border-bottom-right-radius: 30px;
 }
 
+#flex{
+    display: flex;
+    justify-content: center;
+}
+
 #why{
     font-family: "Plus Jakarta Sans", sans-serif;
     color: blue;
@@ -96,4 +101,151 @@
     font-size: 16px;
     color: white;
     border-radius: 50px;
+}
+
+.vir{
+    
+}
+
+
+#piggyvest2{
+    background-color: #060f21;
+    width: 1550px;
+    height: 1550px;
+}
+
+.investify{
+    background-color: palevioletred;
+    width: 139.84px;
+    height: 39.19px;
+    border-radius: 30px;
+    border: none;
+    color: purple;
+    font-size: 25px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 6px 22px;
+    margin-left: 100px;
+
+}
+
+.heading{
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 64px;
+    width: 713.33px;
+    height: 110.58px;
+    margin-left: 100px;
+    font-weight: 900px;
+}
+
+.description{
+    color: white;
+    font-weight: 300px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    width: 499.99px;
+    height: 51.99px;
+    margin-left: 100px;
+}
+
+.pictures{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.pic1{
+    width: 350.99px;
+    height: 409.99px;
+    background: #7913e5;
+    justify-items: center;
+    align-content: center;
+    padding: 64px;
+    border-radius: 30px;
+}
+
+.fio{
+    width: 350.99px;
+    height: 409.99px;
+    color: white;
+    font-size: 16px;
+    padding: 16px 0px 0px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    
+}
+
+.pic2{
+    width: 350.99px;
+    height: 409.99px;
+    background: rgb(176, 249, 176);
+    padding: 64px;
+    border-radius: 30px;
+    object-fit: contain;
+}
+
+.pic3{
+    width: 350.99px;
+    height: 409.99px;
+    background: rgb(243, 206, 112);
+    padding: 64px;
+    border-radius: 30px;
+}
+
+#ecipic{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+#piggyvest-writeup{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.fiohd{
+    margin-left: 50px;
+    font-size: 24px;
+    width: 350.99px;
+    height: 5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.fiopa{
+    margin-left: 50px;
+    font-size: 16px;
+    width: 350.99px;
+    height: 5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.crhd{
+    margin-left: 150px;
+    font-size: 24px;
+    width: 350.99px;
+    height: 5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.crpa{
+    margin-left: 150px;
+    font-size: 16px;
+    width: 350.99px;
+    height: 5px;
+    font-family: "Plus Jakarta Sans", sans-serif;    
+}
+
+
+.ecipara{
+    margin-left: 150px;
+    font-size: 16px;
+    width: 350.99px;
+    height: 5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.ecihd{
+    margin-left: 150px;
+    font-size: 24px;
+    width: 350.99px;
+    height: 5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
