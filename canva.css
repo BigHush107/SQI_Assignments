@@ -1,19 +1,24 @@
+.canva-box{
+    display: flex;
+    gap: 20px;
+}
+
 #box1{
-    width: 55vw;
-    height: 60vh;
+    width: 45vw;
+    height: 50vh;
     border-radius: 30px;
     background: linear-gradient(90deg, #2d00f7, #8a2be2);    
 }
 
 .heading{
-    font-size: 24px;
+    font-size: 40px;
     color: white;
     font-weight: 200;
     margin-left: 20px;
 }
 
 .para{
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     font-weight: 100px;
     margin-left: 20px;
@@ -21,22 +26,22 @@
 
 .image1{
     top: 5px;
-    left: 300px;
+    left: 400px;
     position: absolute;
     height: auto;
     width: 260px;
 }
 
 #box2{
-    width: 55vw;
-    height: 60vh;
+    width: 45vw;
+    height: 50vh;
     border-radius: 30px;
     background: linear-gradient(90deg, #2d00f7, #8a2be2);
 }
 
 .image2{
-    top: 15px;
-    left: 917px;
+    top: 25px;
+    left: 1112px;
     position: absolute;
     height: auto;
     width: 260px;
