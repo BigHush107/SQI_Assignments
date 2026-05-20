@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    width: 85%;
+    justify-self: center;
+} */
+
+nav{
+    /* position: fixed; */
+    width: 100px;
+    top: 0;
+}
+
+.marq{
+    width: 100%;
+    background-color: #996D38;
+    height: 40px;
+    position: fixed;
+    top: 0;
+
+}
+.marq p{
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+}
+
+.site-body{
+    width: 90%;
+    /* justify-self: center; */
+    position: fixed;
+    top: 40px;
+}
+
+.header{
+    /* border: 1px solid; */
+    display: flex;
+    background-color: white;
+    height: 120px;
+    width: 100%;
+    position: relative;
+}
+.header img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    /* padding: 10px; */
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 65%;
+    column-gap: 15px;
+}
+#right input{
+    border: none;
+    background-color: RGB(242, 242, 242);
+    border-radius: 20px;
+    width: 450px;
+    height: 45px;
+    position: absolute;
+    right: 270px;
+    padding: 0px 10px 0px 20px;
+}
+#right textarea::placeholder{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 0 10px 0 20px;
+    border: none;
+}
+
+#right img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 830px;
+    bottom: 45px;
+}
+
+.Temimage{
+    width: 100%;
+}
+
+.products{
+    width: 90%;
+    height: 1000px;
+    justify-self: center;
+    background-color: bisque;
+}
