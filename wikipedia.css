@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+.wikipedia{
+    /* border: 1px solid white; */
+    width: 70dvw;
+    height: 70dvh;
+    justify-self: center;
+    margin-top: 10dvh;
+    background-image: url(images/Wikipedia-logo-v2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.boxes{
+    width: 20dvw;
+    height: 10dvh;
+    text-align: center;
+    position: absolute;
+}
+
+.wiki{
+    color:#eaecf0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 25dvw;
+    top: 3dvh;
+}
+
+#wikip1{
+    font-size: 32px;
+}
+
+#wikip2{
+    font-size: 14px;
+}
+
+.lang{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.langp1{
+    color: #88a3e8;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.langp2{
+    color: #a2a9b1;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.english{
+    top: 15dvh;
+    left: 15dvw;
+}
+
+.dutch{
+    top: 23dvh;
+    left: 11dvw;
+}
+
+.russian{
+    top: 32dvh;
+    left: 10dvw;
+}
+
+.spanish{
+    top: 41dvh;
+    left: 11dvw;
+}
+
+.portuguese{
+    top: 50dvh;
+    left: 15dvw;
+}
+
+.unk1{
+    top: 15dvh;
+    right: 15dvw;
+
+}
+
+.unk2{
+    top: 23dvh;
+    right: 11dvw;
+}
+
+.french{
+    top: 32dvh;
+    right: 10dvw;
+}
+
+.italian{
+    top: 41dvh;
+    right: 11dvw;
+}
+
+.polish{
+    top: 50dvh;
+    right: 15dvw;
+}
+
+#searchbar{
+    width: 32dvw;
+    height: 7dvh;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    justify-self: center;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+
+#search{
+    width: 85%;
+    /* border-right: 1px solid white; */
+    height: 100%;
+    position: relative;
+}
+
+#input{
+    height: 100%;
+    width: 22dvw;
+    background-color: transparent;
+    border: 0px rgba(0, 0, 0, 0);
+}
+
+.select{
+    position: absolute;
+    right: 1dvw;
+    top: 2dvh;
+    width: 3dvw;
+    background-color: transparent;
+    border: transparent;
+    border: 0px rgba(0, 0, 0, 0);
+    color: #a2a9b1;
+    font-size: 12px;
+}
+
+
+#icon{
+    width: 15%;
+}
+
+#submit{
+    width: 100%;
+    height: 100%;
+    /* background-color:#3056A9; */
+    background-image: url(images/searchicon.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}

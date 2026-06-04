@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#cta{
+    margin-top: 10vh;
+    height: 70vh;
+    background-image: url(cta.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+
+}
+
+#ctahead{
+    padding-top: 6%;
+    font-family: Helvetica, sans-serif;
+    font-size: 68px;
+    color: #000e42;
+    width: 40%;
+    font-weight: 600;
+}
+
+#ctap{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #474747;
+    width: 45%;
+}
+
+#startbutton{
+    background-color: #00208a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 8vh;
+    width: 10vw;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#ctw-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #050754;
+    margin: 3% 0;
+    font-weight: 750;
+}
+
+#ctw-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 23vw;
+}
+
+.img{
+    height: 50vh;
+    background-image: url(nd.jpg);
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-blend-mode: luminosity;
+    /* filter: grayscale(); */
+    background-repeat: no-repeat;
+}
+
+.noii{
+    background-image: url(pd.jpg);
+}
+
+.noiii{
+    background-image: url(cp.jpg);
+}
+
+.heading{
+    color: #000e54;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 5vh;
+}
+
+.paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666;
+    margin-top: 3vh;
+    line-height: 3vh;
+}
+
+.learnmore{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    width: fit-content;
+    margin-top: 7vh;
+}
+
+.learnmore a{    
+    color: #26364e;
+    text-decoration: none;
+}
+
+.underline{
+    margin-top: 1vh;
+    border: 1px solid #26364e;
+}
+
+#diplomas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    padding-bottom: 20vh;
+}
+
+.diploma{
+    width: 23vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.diploma h3{
+    font-size: 15px;
+    color: #333;
+}
+
+.eachrow{
+    margin-top: 3vh;
+}
+
+.eachrow b{
+    color: #666;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.eachrow p{
+    display: inline;
+    color: #666;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.eachrow hr{
+    margin-top: 1vh;
+    border-top-color: #2ea3f2;
+    border-left-color: #2ea4f200;
+    border-right-color: #2ea4f200;
+    border-bottom-color: #2ea4f200;
+    height: 2px;
+}
+
+
+/* TOP COURSES SECTION
+
+        FIRST COLUMN
+
+*/
+
+
+.topcourses{
+    height: fit-content;
+    display: flex;
+    gap: 50px;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 90%;
+}
+
+.co1{
+    border-radius: 20px;
+}
+
+.otc{
+    height: 20dvh;
+}
+
+.otc h1{
+    font-size: 48px;
+    color: #333;
+}
+
+.otc p{
+    font-size: 16px;
+    color: #666;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#otca{
+    font-size: 14px;
+    color: #e06100;
+    margin-top: 30px;
+}
+
+
+.se{
+    height: fit-content;
+    background-color: #88c4dd56;
+    padding: 2vh 4vw;
+    padding-bottom: 10vh;
+    /* box-shadow: 5px 40px 50px 12px #88c4dd56; */
+    
+}
+
+.image{
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+    border-radius: 10px;
+    height: 30dvh;
+    background-image: url(software-engineering-630x330-1.webp);
+    background-size: cover;
+}
+
+.co1 h2{
+    font-size: 25px;
+    color: #000;
+}
+
+.se p{
+    line-height: 3vh;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+}
+
+.p1 p{
+    margin-top: 2vh;    
+}
+
+.p2 p{
+    margin-top: 3vh;
+}
+
+.LM{
+    font-size: 14px;
+    margin-top: 5vh;
+    font-weight: 700;
+}
+
+.uiux{
+    height: fit-content;
+    background-color: #e0d5c0;
+    padding: 2vh 4vw;
+    padding-bottom: 10vh;
+}
+
+.ux{
+    background-image: url(product.jpg);
+    height: 40dvh;
+    background-size: cover;
+}
+
+.uiux p{
+    line-height: 3vh;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+}
+
+
+/* 
+
+    SECOND COLUMN
+
+*/
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 90%;
+    margin-top: 6%;
+}
+
+.co2{
+    height: fit-content;
+    padding: 2vh 4vw;
+    padding-bottom: 10vh;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.datascience{
+    background-color: #eeefbd;
+    box-shadow: 0px 30px 50px 12px rgba(255, 192, 203, 0.849);
+}
+
+.datasci{
+    background-image: url(DATA-SQI.jpg);
+    height: 40dvh;
+    background-size: cover;
+}
+
+.co2 p{
+    line-height: 3vh;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+}
+
+.digital{
+    background-color: #dfd5d8;
+    box-shadow: 5px 40px 50px 12px rgba(255, 192, 203, 0.459);
+}
+
+.diglit{
+    background-image: url(digital-literacy.jpg);
+    height: 40dvh;
+    background-size: cover;
+}
+
+.companies{
+    padding-bottom: 10dvh;
+    margin-top: 25dvh;
+    width: 100%;
+    height: fit-content;
+}
+
+.companies-heading h2 {
+    font-size: 27px;
+    color: #333;
+    width: 40dvw;
+}
+
+.companies-images{
+    width: 100%;
+    /* height: 100dvh; */
+    margin-top: 10dvh;
+    /* border: 1px solid black; */
+}
+
+.companies-images-row1{
+    display: flex;
+    justify-content: space-around;  
+    margin-top: 5dvh;
+
+}
+
+.companies-images-rows{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 22%;
+    height: 10dvh;
+}
+
+.google{
+    background-image: url(images/google.png);
+}
+
+.interswitch{
+    background-image: url(images/Interswitch.png);
+}
+
+.andela{
+    background-image: url(images/Andela-log-landscape-blue-400px.png);
+}
+
+.microsoft{
+    background-image: url(images/Microsoft_logo.png);
+}
+
+.paystack{
+    background-image: url(images/Paystack.png);
+}
+
+.breweries{
+    background-image: url(images/brewery.png);
+}
+
+.wema{
+    background-image: url(images/Wema-Bank-Logo.png);
+}
+
+.credit-clan{
+    background-image: url(images/clan-logo.png);
+}
+
+.edozzier{
+    background-image: url(images/edozzier.png);
+}
+
+.moneymie{
+    background-image: url(images/moneymie.png);
+}
+
+.army{
+    background-image: url(images/Nigerian_Army.png);
+}
+
+.aella{
+    background-image: url(images/aella-credit.png);
+}
+
+
+/* 
+
+                TAKE A TOUR SECTION
+
+*/
+
+.take-a-tour{
+    height: 70dvh;
+    position: absolute;
+    left: 0;
+    background-image: linear-gradient(120deg, rgba(0, 4, 66, 0) 0%, #000442 70%), url(images/tour.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.tour-embed{
+    border-radius: 20px;
+    width: 29dvw;
+    height: 32dvh;
+    position: absolute;
+    top: 15dvh;
+    left: 10dvw;
+}
+
+.tour-heading{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    top: 14dvh;
+    left: 43dvw;
+}
+
+.tour-para{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    left: 43dvw;
+    line-height: 5dvh;
+    top: 23dvh;
+    width: 45dvw;
+}
+
+.youtube-button{
+    position: absolute;
+    left: 43dvw;
+    top: 52dvh;
+    width: 9dvw;
+    height: 8dvh;
+    border-radius: 40px;
+    border: 1px solid #00208a;
+    background-color:#00208A;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}

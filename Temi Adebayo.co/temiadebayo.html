@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="temiadebayo.css">
+</head>
+<body>
+    <!-- NAV BAR -->
+     <nav class="navbar">
+         <!-- topmost div with marquee -->
+          <input type="checkbox" id="dismiss-marquee" hidden>
+          <div class="marquee-div">
+            <div class="marquee-text">
+                <marquee behavior="" direction="left">
+                    <span>Our ready to wear pieces are available for same day or next day delivery. Production &amp; Shipping takes 5-10 days within Nigeria and 14 days for International orders. All US orders now require a custom fee.</span>                    
+                </marquee>
+            </div>
+            <label for="dismiss-marquee">
+                <img src="images/iconoir--cancel.svg" class="marquee-cancel-img" alt="">
+            </label>
+           
+        </div>
+
+        <!-- ACTIONABLE PART OF NAV BAR -->
+        <div class="nav-action">
+            <!-- LEFT SIDE - LOGO -->
+            <div class="nav-action-left-side">
+                <img src="images/logo.jpg" alt="">
+            </div>
+
+            <!-- RIGHT SIDE - SEARCH, BUTTONS -->
+            <div class="nav-action-right-side">
+                <!-- SEARCH -->
+                <div class="search-bar">
+                    <input type="text" class="search-box" placeholder="Search">
+                </div>
+                    
+                <!-- CURRENCY -->
+                <div class="currency">
+                    <input type="checkbox" id="toggle">
+                    <label for="toggle">
+                        <img src="images/ngn.4e5af33c.png" width="25dvw" height="15dvh" alt="">
+                        <span>NGN</span>
+                        <span><img id="dropdown-arrow" src="images/ep--arrow-down.svg" alt=""></span>
+                    </label>
+                    <ul class="currency-dropdown">
+                        <li>
+                            <img src="images/ngn.4e5af33c.png" width="25dvw" height="15dvh" alt="">
+                            <span>NGN - Naira</span>
+                        </li>
+                        <li>
+                            <img src="images/usd.4a3a64f1 (1).png"  width="25dvw" height="15dvh" alt="">
+                            <span>USD - US Dollar</span>
+                        </li>
+                        <li>
+                            <img src="images/gbp.c3ad289f.png" width="25dvw" height="15dvh" alt="">
+                            <span>GDP - British Pound</span>
+                        </li>
+                    </ul>
+                        
+                </div>
+
+                <!-- ICONS ONLY ON MOBILE -->
+                 <div class="mobile-icons">
+                    <img class="mobile-icon-1" src="images/boxicons--search.svg" alt="">
+                    <img class="mobile-icon-2" src="images/ix--user-profile-filled.svg" alt="">
+                 </div>
+
+                <!-- LOGIN -->
+                <span id="login">Login</span>
+
+                <!-- CART ICON -->
+                 <div id="cart-background">
+                     <img id="cart" src="images/system-uicons--cart.svg" width="25dvw" height="25dvh" alt="">
+                 </div>
+            </div>
+        </div>
+     </nav>
+
+     <!-- SPACE BEFORE HERO SECTION ON MOBILE DEVICES (480px)
+      <div class="space-on-mobile"></div> -->
+
+    <!-- HERO SECTION -->
+     <div class="hero-section">
+       <h1>TEMI ADEBAYO</h1>
+     </div>
+
+    <!--  CATEGORY BANNER  -->
+    <!-- LAPTOP -->
+     <div class="category-banner">        
+            <div class="category-items">
+                <p>All</p>
+            </div>
+            <div class="category-items">
+                <p>FIGURES</p>
+            </div>
+            <div class="category-items">
+                <p>An ode to love</p>
+            </div>
+            <div class="category-items">
+                <p>Bloom collection</p>
+            </div>
+            <div class="category-items">
+                <p>More</p>
+                <img id="ellipses" src="images/ri--more-fill.svg" width="25dvw" height="25dvh" alt="">
+            </div>
+     </div>
+     <!-- MOBILE DEVICE (480px)-->
+     <input type="checkbox" id="mobile-browse-collections" hidden>
+     <label for="mobile-browse-collections">
+        <div class="browse-position">
+             <div class="category-banner-mobile">
+                 <span><b>Browse Collections</b></span>
+                 <img src="images/ep--arrow-down.svg" alt="">
+            </div>
+        </div>
+     </label>
+     <div class="browse-collections-dropdown">
+            <div><p>All</p></div>
+            <div><p>FIGURES</p></div>
+            <div><p>An Ode To Love</p></div>
+            <div><p>Bloom Collection</p></div>
+     </div>
+
+    <!-- CATALOG -->
+     <div class="catalog">
+        <div class="catalog-items">
+            <div class="catalog-image"><img class="catalog-img" src="images/reina.jpeg" alt=""></div>
+            <div class="catalog-info">
+                <div class="catalog-info-title">REINA All colors</div>
+                <div class="catalog-info-price"><b>₦80,000</b></div>
+            </div>
+            <div class="catalog-button">
+                <button class="catalog-button-button">Select options</button>
+            </div>
+        </div>
+        <div class="catalog-items">
+            <div class="catalog-image"><img class="catalog-img" src="images/atar.jpeg" alt=""></div>
+            <div class="catalog-info">
+                <div class="catalog-info-title">ATARA</div>
+                <div class="catalog-info-price"><b>₦80,000</b></div>
+            </div>
+            <div class="catalog-button">
+                <button class="catalog-button-button">Select options</button>
+            </div>
+        </div>
+        <div class="catalog-items">
+            <div class="catalog-image"><img class="catalog-img" src="images/inara.jpeg" alt=""></div>
+            <div class="catalog-info">
+                <div class="catalog-info-title">INARA</div>
+                <div class="catalog-info-price"><b>₦95,000</b></div>
+            </div>
+            <div class="catalog-button">
+                <button class="catalog-button-button">Select options</button>
+            </div>
+        </div>
+        <div class="catalog-items">
+            <div class="catalog-image"><img class="catalog-img" src="images/kyomi.jpeg" alt=""></div>
+            <div class="catalog-info">
+                <div class="catalog-info-title">KYOMI</div>
+                <div class="catalog-info-price"><b>₦80,000</b></div>
+            </div>
+            <div class="catalog-button">
+                <button class="catalog-button-button">Select options</button>
+            </div>
+        </div>
+        <div class="catalog-items">
+            <div class="catalog-image"><img class="catalog-img" src="images/lael.jpeg" alt=""></div>
+            <div class="catalog-info">
+                <div class="catalog-info-title">LAEL</div>
+                <div class="catalog-info-price"><b>₦75,000</b></div>
+            </div>
+            <div class="catalog-button">
+                <button class="catalog-button-button">Select options</button>
+            </div>
+        </div>
+        <div class="catalog-items">
+            <div class="catalog-image"><img class="catalog-img" src="images/reina set.jpeg" alt=""></div>
+            <div class="catalog-info">
+                <div class="catalog-info-title">REINA SET</div>
+                <div class="catalog-info-price"><b>₦98,500</b></div>
+            </div>
+            <div class="catalog-button">
+                <button class="catalog-button-button">Select options</button>
+            </div>
+        </div>
+        <div class="catalog-items">
+            <div class="catalog-image"><img class="catalog-img" src="images/moriah.jpeg" alt=""></div>
+            <div class="catalog-info">
+                <div class="catalog-info-title">REINA All colors</div>
+                <div class="catalog-info-price"><b>₦70,000</b></div>
+            </div>
+            <div class="catalog-button">
+                <button class="catalog-button-button">Select options</button>
+            </div>
+        </div>
+        <div class="catalog-items">
+            <div class="catalog-image"><img class="catalog-img" src="images/maya.jpeg" alt=""></div>
+            <div class="catalog-info">
+                <div class="catalog-info-title">MAYA All colors</div>
+                <div class="catalog-info-price"><b>₦65,000</b></div>
+            </div>
+            <div class="catalog-button">
+                <button class="catalog-button-button">Select options</button>
+            </div>
+        </div>        
+     </div>
+
+    <!-- PAGE NUMBER -->
+     <div class="page-selector">
+        <div class="circle">
+            <img src="images/si--arrow-left-duotone.svg" width="25dvw" height="25dvh" alt="">
+        </div>
+        <div class="circle">
+            <div class="inner-circle">
+                <p>1</p>
+            </div>
+        </div>
+        <div class="circle">
+            <img src="images/si--arrow-right-duotone.svg" width="25dvw" height="25dvh" alt="">
+        </div>
+     </div>
+
+
+    <!-- FOOTER -->
+     <div class="footer">
+        <div class="footer-text">            
+            <div class="footer-left-side">
+                <p id="home"><b>Home</b></p>
+                <p id="contact"><b>CONTACT US</b></p>
+                <div id="phone-number">
+                    <img src="images/mdi-light--phone.svg" width="16dvw" height="16dvh" alt="">
+                    <span>+2347040986790</span>
+                </div>
+                <div id="location">
+                    <img src="images/mingcute--location-line.svg" width="16dvw" height="16dvh" alt=""> Lagos</span>
+                </div>
+                <div class="social-media-icons">
+                    <img src="images/gg--facebook.svg" width="30dvw" height="30dvh" alt="">&emsp;
+                    <img src="images/mynaui--instagram-solid.svg" width="30dvw" height="30dvh" alt="">&emsp;
+                    <img src="images/fa6-brands--square-x-twitter.svg" width="30dvw" height="30dvh" alt="">
+                </div>            
+            </div>
+
+            <div class="footer-right-side">
+                <p><b>SIGN UP FOR DISCOUNTS & UPDATES</b></p>
+                <input type="text" id="signup-input" placeholder="Enter your phone number or email address">
+                <button class="subscribe"><b>Subscribe</b></button>
+                <span><a href="">Return Policy</a> &emsp; <a href="">About Us</a></span>
+            </div>
+        </div>
+        <div id="hr"></div>
+        <button id="powered-by"><b>POWERED BY BUMPA</b></button>
+     </div>
+
+    <!-- FOOTER FOR MOBILE -->
+     <div class="mobile-footer">
+        <div class="footer-top">
+            <p><b>SIGN UP FOR DISCOUNTS & UPDATES</b></p>
+            <input type="text" id="signup-input" placeholder="Enter your phone number or email address">
+            <button class="subscribe"><b>Subscribe</b></button>
+        </div>
+        <div id="hr"></div>
+        <div id="policy">   
+            <div class="policy-left">
+                <span><a href="">Return Policy</a> &emsp; <a href="">About Us</a></span>
+            </div>         
+            <div class="policy-right">
+                <p>NGN</p>
+                <img class="policy-right-img" src="images/ep--arrow-down.svg" alt="">
+            </div>
+        </div>
+        <div class="footer-down">
+                <p id="home"><b>Home</b></p>
+                <p id="contact"><b>CONTACT US</b></p>
+                <div id="phone-number">
+                    <img src="images/mdi-light--phone.svg" width="16dvw" height="16dvh" alt="">
+                    <span>+ 2347040986790</span>
+                </div>
+                <div id="location">
+                    <img src="images/mingcute--location-line.svg" width="16dvw" height="16dvh" alt=""> Lagos</span>
+            </div>
+            <div class="social-media-icons">
+                <img src="images/gg--facebook.svg" width="30dvw" height="30dvh" alt="">&emsp;
+                <img src="images/mynaui--instagram-solid.svg" width="30dvw" height="30dvh" alt="">&emsp;
+                <img src="images/fa6-brands--square-x-twitter.svg" width="25dvw" height="25dvh" alt="">
+            </div>            
+        </div>
+        <div id="second-hr"></div>
+        <button id="powered-by">POWERED BY BUMPA</button>
+
+
+     </div>
+
+     <!-- WHATSAPP -->
+      <div class="whatsapp">
+        <img class="whatsapp-icon" src="images/ic--outline-whatsapp.svg" width="40dvw" height="40dvh" alt="">
+      </div>
+      <div class="whatsapp-no">
+        <span>1</span>
+      </div>
+
+
+
+
+</body>
+</html>
